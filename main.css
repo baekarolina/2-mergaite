@@ -1,3 +1,9 @@
+body {
+    font-family:monospace;
+    color: #9f9f9f;
+    background-color:
+}
+
 header {
     display: inline-block;
     width: 800px;
@@ -6,10 +12,52 @@ header {
     background-color:yellow;
 }
 
+header > img {
+    display: inline-block;
+    height: 50px;
+    float: left;
+}
+
+nav {
+    display: inline-block;
+    float: right;
+}
+
+a {
+    display: inline-block;
+}
+
 main {
     display: inline-block;
     width: 800px;
     margin-left: calc((100% - 800px) / 2);
     margin-right: calc((100% - 800px) / 2);
-    background-color:orange;
+    margin-top: 20px;
+}
+
+div {
+    display: inline-block;
+    width: 38%;
+    float: left;
+    margin-left: 4%;
+    margin-top: 80px;
+}
+
+h1 {
+    display: inline-block;
+    margin: 0%;
+    font-size: 90px;
+    color: #9f9f9f;
+
+}
+
+p {
+    display: inline-block;
+    margin: 0%;
+    font-size: 22px;
+}
+
+main > img {
+    width: 46%;
+    margin-left: 8%;
 }
